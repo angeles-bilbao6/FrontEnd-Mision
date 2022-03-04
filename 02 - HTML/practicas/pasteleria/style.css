@@ -1,0 +1,103 @@
+
+.header{
+    padding-top: 10px;
+}
+.header img{
+    width: 80%;
+}
+.header h2{
+    font-size: 40px;
+    color: #6ee3a2;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px #423f3f;
+}
+.menu{
+    margin-top: 30px;
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin-right: 24px;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+.menu a{
+    color: #000;
+}
+.pasteles{
+    margin-top: 100px;
+}
+.pastel{
+    width: 80%;
+    margin-left: 10%;
+}
+.pastel img{
+    width: 80%;
+    margin-left: 10%;
+}
+.pastel h3{
+    color: #6ee3a2;
+    text-shadow: 1px 1px 2px #423f3f;
+}
+.pastel h6{
+    color: #000;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #423f3f;
+}
+form{
+    margin-top: 60px;
+}
+form input{
+    width: 46%;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 4%;
+    height: 36px;
+    padding: 5px;
+}
+form textarea{
+    width: 46%;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 4%;
+    height: 60px;
+    padding: 5px;
+}
+form select{
+    width: 46%;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 4%;
+    height: 36px;
+    padding: 5px;
+}
+form button{
+    display: block;
+    background-color: #6ee3a2;
+    border: none;
+    height: 40px;
+    padding: 0px 24px;
+    float: right;
+    margin-right: 4%;
+    margin-top: 20px;
+}
+footer{
+    margin-top: 50px;
+    background-color: #6ee3a2;
+    padding: 40px;
+}
+table{
+    margin-left: 25%;
+    width: 50%;
+    font-size: 16px;
+    margin-top: 40px;
+}
+table td{
+    border: solid 1px #666161;
+    padding: 8px;
+}
+table th{
+    border: solid 1px #666161;
+    padding: 8px;
+}
