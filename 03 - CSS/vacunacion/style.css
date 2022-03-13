@@ -1,0 +1,248 @@
+.navbar-light .navbar-brand{
+    color: #3050ce;
+    font-weight: 800;
+    font-size: 30px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #6d7b93;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-right: 2rem;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #6d7b93;
+}
+.padding10{
+    padding-left: 10%;
+}
+body{
+    background-color: #fefeff;
+}
+.navbar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: transparent!important;
+}
+.water-mark{
+    background-color: #e6f4fc;
+    position: absolute;
+    right: 0px;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+}
+.navbar-light .navbar-nav .button{
+    color: #fff;
+    background-color: #3050ce;
+    border-radius: 5px;
+    padding: 12px 23px;
+}
+.bannerBg{
+    background-image: url("img/banner-bg.jpg");
+    background-size: cover;
+    background-position: 50%;
+    height: 790px;
+}
+.banner h3{
+    padding-top: 150px;
+    font-size: 70px;
+    color: #1f3e72;
+    font-weight: 700;
+    padding-right: 58px;
+}
+.banner p.description{
+    padding-top:40px;
+    font-size: 20px;
+    color: #6d7b93;
+    font-weight: 600;
+    padding-right: 58px;
+    padding-bottom: 50px;
+}
+.banner ul li{
+    color: #1f3e72;
+    font-size: 20px;
+    font-weight: 600;
+    float: left;
+    padding-right: 30px;
+    list-style: none;
+}
+.banner ul li span{
+    color: #ffd012;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.banner{
+    position: relative;
+}
+.schedule-form{
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+.schedule-form h6{
+    color: #1f3e72;
+    font-size: 20px;
+}
+.schedule-form .form{
+    background-color: #fff;
+    border-radius: 4px;
+    margin-top: 4px;
+    width: 70%;
+    padding: 20px 15px;
+    box-shadow: -1px 15px 38px -1px rgba(95,151,245,0.75);
+    opacity: 0.8;
+}
+.form-icon{
+    color: #2b4bc9;
+    background-color: #e9f1fd;
+    padding: 3px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.schedule-form .form h7{
+    font-size: 20px;
+    color: #6d7b93;
+    font-weight: 600;
+}
+.schedule-form input{
+    padding-left: 43px;
+    font-size: 18px;
+    color: #1f3e72;
+    font-weight: 700;
+    border: none;
+    margin-top: 5px;
+    width: 80%;
+}
+.button{
+    color: #fff;
+    background-color: #3050ce;
+    border-radius: 5px;
+    padding: 12px 23px;
+    border: none;
+    font-size: 18px;
+}
+.vacunas img{
+    width: 90%;
+    margin-left: 5%;
+}
+.benefits{
+    padding-top: 8px;
+}
+h3{
+    font-size: 40px;
+    color: #1f3e72;
+    font-weight: 700;
+}
+ p{
+    padding-top:20px;
+    font-size: 20px;
+    color: #6d7b93;
+    font-weight: 600;
+}
+.benefit{
+    width: 90%;
+    margin-left: 5%;
+    padding: 20px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    min-height: 330px;
+}
+.icon{
+    color: #2b4bc9;
+    background-color: #e9f1fd;
+    padding: 3px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 44px;
+}
+ .benefit h4{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #1f3e72;
+    font-weight: 700;
+}
+.benefit p{
+    font-size: 15px;
+}
+.preparations{
+    padding-top: 80px;
+}
+.preparation-list{
+    padding-top: 50px;
+    width: 80%;
+}
+.preparation{
+    padding: 14px;
+    position: relative;
+}
+.preparation .icon{
+    font-size: 20px;
+}
+.preparation h4{
+    font-size: 18px;
+    color: #1f3e72;
+    font-weight: 700;
+}
+.collapse{
+    float:right;
+    cursor: pointer;
+}
+.preparation p{
+    font-size: 15px;
+}
+.collapsed{
+    display: none;
+}
+.preparations .bg{
+    background-image: url("img/preparation-bg.png");
+    background-size: cover;
+    height: 680px;
+}
+.contact{
+    margin-top: 80px;
+}
+.contacts{
+    margin-top: 20px;
+}
+.contact-header{
+    display: flex;
+    margin-top: 60px;
+}
+.contacts h4{
+    font-size: 24px;
+    color: #1f3e72;
+    font-weight: 700;
+}
+.contacts p{
+    padding-top: 0px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.contacts .icon{
+    font-size: 50px;
+}
+.button-light{
+    color: #3351cb;
+    background-color: #f1f5ff;
+    border-radius: 5px;
+    padding: 12px 23px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    
+}
+.contacts .button-light{
+    width: 100%;
+    margin-top: 15px;
+}
+.contacts .button{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 20px;
+
+}
+.contacts-bg{
+    background-image: url("img/contacts-bg.png");
+    background-size: cover;
+}
