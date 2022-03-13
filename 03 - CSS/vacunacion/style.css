@@ -246,3 +246,37 @@ h3{
     background-image: url("img/contacts-bg.png");
     background-size: cover;
 }
+footer {
+    margin-top: 80px;
+    padding-top: 90px;
+    padding-right: 40px;
+    background-color: #EEF3FF;
+    font-size: 16px;
+    color: #6d7b93;
+    font-weight: 600;
+}
+
+.footer-header {
+    font-size: 30px;
+    color: #3151CF;
+    font-weight: 800;
+}
+
+.footer-col {
+    width: 170px;
+}
+
+.footer-title {
+    font-size: 26px;
+    font-weight: 800;
+    color: #1F3E72;
+
+}
+footer p{
+    font-size: 16px;
+    padding-top: 0px;
+    cursor: pointer;
+}
+.pr50{
+    padding-right: 50px;
+}
