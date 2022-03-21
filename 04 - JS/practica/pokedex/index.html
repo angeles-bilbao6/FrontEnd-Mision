@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+<body>
+    <div class="pokedex">
+        <div class="pokedex-divider"></div>
+        <div class="button-big"></div>
+        <div class="button-group">
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="pantalla">
+                    <img id="pokeImg">
+                    <h4 id="pokeNameH4"></h4>
+                </div>
+                <div class="bottom-buttons">
+                    <button onclick="fetchPokemon()"></button>
+                    <input id="pokeName">
+                    <span class="material-icons">
+                        add
+                        </span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="pantalla-caracteristicas">
+                    <p id="pokeType">TIPO:</p>
+                    <div class="stats">
+                        <div>
+                            <div class="stat-bars">
+                                <div id="stats1" class="stats-rate"></div>
+                                <div class="stats-bg"></div>
+                               <span class="stat-bar"></span>
+                               <span class="stat-bar"></span>
+                               <span class="stat-bar"></span>
+                               <span class="stat-bar"></span>
+                               <span class="stat-bar"></span> 
+                            </div>
+                            <h6>HP</h6>
+                        </div>
+                        <div>
+                            <div class="stat-bars">
+                                <div id="stats2" class="stats-rate"></div>
+                                <div class="stats-bg"></div>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span> 
+                             </div>
+                            <h6>ATTACK</h6>
+                        </div>
+                        <div>
+                            <div class="stat-bars">
+                                <div id="stats3" class="stats-rate"></div>
+                                <div class="stats-bg"></div>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span> 
+                             </div>
+                            <h6>DEFENSE</h6>
+                        </div>
+                        <div>
+                            <div class="stat-bars">
+                                <div id="stats4" class="stats-rate"></div>
+                                <div class="stats-bg"></div>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span> 
+                             </div>
+                            <h6>SP.ATTACK</h6>
+                        </div>
+                        <div>
+                            <div  class="stat-bars">
+                                <div id="stats5" class="stats-rate"></div>
+                                <div class="stats-bg"></div>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span> 
+                             </div>
+                            <h6>SP.DEFENSE</h6>
+                        </div>
+                        <div>
+                            <div class="stat-bars">
+                                <div id="stats6" class="stats-rate"></div>
+                                <div class="stats-bg"></div>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span>
+                                <span class="stat-bar"></span> 
+                             </div>
+                            <h6>SPEED</h6>
+                        </div>
+                    </div>
+                </div>
+                <div id="pokeMoves"></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="functions.js"></script>
+</html>

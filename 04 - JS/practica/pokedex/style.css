@@ -1,0 +1,174 @@
+.pokedex{
+    width: 90%;
+    margin-left: 5%;
+    background-color: #c00d0d;
+    height: 800px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid #000 2px;
+    position: relative;
+}
+.button-big{
+    background-color: #68d4eb;
+    border: solid 3px #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+.button-group{
+    position: absolute;
+    top:30px;
+    left: 100px;
+}
+.btn{
+    width: 20px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid #000 2px;
+}
+.btn:nth-of-type(1){
+    background-color: #e44e4e;
+}
+.btn:nth-of-type(2){
+    background-color: #fefe45;
+}
+.btn:nth-of-type(3){
+    background-color: #62b729;
+}
+.pokedex-divider{
+    width: 6%;
+    margin-left: 48%;
+    height: 100%;
+    border: solid #000 2px;
+    border-radius: 20px;
+    position: absolute;
+    top:0;
+}
+.pantalla{
+    background-color: #fff;
+    margin-top: 150px;
+    border-radius: 20px;
+    border: solid #b0b0b0 20px;
+    width: 80%;
+    margin-left: 10%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+}
+.pantalla h4{
+    position:absolute;
+    bottom:20px;
+}
+.bottom-buttons{
+    padding: 50px;
+    width: 100%;
+    position: relative;
+}
+.bottom-buttons button{
+    width: 80px;
+    height: 80px;
+    border: solid 2px #000;
+    border-radius: 50%;
+    background-color: #564d4d;
+}
+.bottom-buttons input{
+    margin-left: 37px;
+    height: 126px;
+    background-color: #1d8508;
+    font-size: 20px;
+}
+.bottom-buttons span{
+    font-size: 163px;
+    position: absolute;
+    font-weight: 800;
+    margin-top: -32px;
+}
+.pantalla img{
+    width: 80%;
+    margin-left: 10%;
+}
+.pantalla-caracteristicas{
+    background-color: rgb(44, 42, 42);
+    margin-top: 150px;
+    border-radius: 20px;
+    border: solid #b0b0b0 5px;
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
+    padding: 20px;
+}
+.pantalla-caracteristicas p{
+    font-size: 20px;
+    color: #fefe45;
+}
+#pokeType span{
+    margin-left: 10px;
+    background-color: #000;
+    color: #fff;
+    padding: 4px
+
+}
+.stats {
+    display: -webkit-flex;
+    -webkit-flex-direction: column-reverse;
+    display: flex;
+    flex-direction: row;
+    color:#fefe45;
+    justify-content: space-evenly;
+}
+.stats div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat-bars{
+    position: relative;
+}
+.stat-bars span{
+    background: #2a2a2a;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 20px;
+    margin-top: 3px;
+    z-index: 3;
+}
+.stats-bg{
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    background-color: #fff;
+}
+.stats-rate{
+    width: 20px;
+    height: 0px;
+    position: absolute;
+    background-color: rgb(20, 151, 238);
+    z-index: 1;
+    bottom: 0;
+}
+#pokeMoves{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 57px;
+    flex-direction: column;
+    overflow-x: scroll;
+    justify-content: space-between;
+    border-radius: 10px;
+    height: 217px;
+    flex-wrap: wrap;
+}
+#pokeMoves span{
+    background-color: #199eb9;
+    padding: 12px;
+    width: 100px;
+    height: 100px;
+    border: solid 1px #ccc;
+}
